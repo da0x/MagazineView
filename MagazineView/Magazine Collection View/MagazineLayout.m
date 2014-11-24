@@ -100,7 +100,7 @@
 {
     CGRect frame = [self frameForLayoutType:[self layoutTypeForIndexPath:indexPath]];
     
-    int row = indexPath.row / MagazineLayoutsPerRow;
+    long row = indexPath.row / MagazineLayoutsPerRow;
     frame.origin.y += row * [self rowHeight];
     
     UICollectionViewLayoutAttributes* attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];

@@ -24,7 +24,7 @@
     [super setBackgroundColor:backgroundColor];
 
         // pass on the background color to the text field.
-    [self.description setBackgroundColor:backgroundColor];
+    [self.details setBackgroundColor:backgroundColor];
 }
 
 @end

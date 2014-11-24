@@ -45,7 +45,7 @@ typedef enum MagazineLayoutType_e
     MagazineLayoutTypeH,
 } MagazineLayoutType;
 
-static const int MagazineLayoutsPerRow = 8;
+static const int MagazineLayoutsPerRow = 8L;
 
 @interface MagazineLayout : UICollectionViewLayout
 

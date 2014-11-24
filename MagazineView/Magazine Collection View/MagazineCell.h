@@ -20,7 +20,7 @@
 @interface MagazineCell : UICollectionViewCell
 @property IBOutlet UILabel*         title;
 @property IBOutlet UILabel*         subtitle;
-@property IBOutlet UITextView*      description;
+@property IBOutlet UITextView*      details;
 @property IBOutlet UILabel*         date;
 @property IBOutlet UIImageView*     image;
 @end
